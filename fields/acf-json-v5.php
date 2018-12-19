@@ -123,7 +123,7 @@ class acf_field_csv extends acf_field {
 
 		$field_key					= esc_attr($field['key']);
 		$field_name 				= esc_attr($field['name']);
-		$field_value				= !empty($field['value']) ? htmlspecialchars($field['value']) : '{"test":333}';
+		$field_value				= !empty($field['value']) ? htmlspecialchars($field['value']) : '{}';
 
 		?>
 
